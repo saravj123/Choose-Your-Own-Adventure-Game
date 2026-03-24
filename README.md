@@ -11,7 +11,7 @@ An interactive choose your own adventure game where you play as a thief trying t
 ## How to Play
 Click through the story and make choices to reach different endings.
 
-## Tech Used
+## Languages Used
 - HTML
 - CSS
 - JavaScript
