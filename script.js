@@ -29,7 +29,7 @@ function showScene(sceneKey) {
 const story = {
 
 scene1: {
-text: "You stand in a dark alley overlooking the royal castle. The Velvet Crown jewels were stolen from the people years ago. Tonight you steal them back.",
+text: "You stand in a dark alley overlooking the royal castle. The Emerald Crown was stolen from the people years ago. Tonight you steal it back.",
 image: "castle.jpg",
 choices: [
 { text: "Sneak through the rooftops", next: "scene2" },
