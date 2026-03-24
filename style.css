@@ -27,8 +27,11 @@ button:hover {
 }
 
 #scene-image {
-  width: 100px;
+  width: 200px;
+  height: auto;
   border-radius: 10px;
+  display: block;
+  margin: 10px auto;
 }
 
 
