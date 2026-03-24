@@ -30,7 +30,7 @@ const story = {
 
 scene1: {
 text: "You stand in a dark alley overlooking the royal castle. The Velvet Crown jewels were stolen from the people years ago. Tonight you steal them back.",
-image: "images/castle.jpg",
+image: "castle.jpg",
 choices: [
 { text: "Sneak through the rooftops", next: "scene2" },
 { text: "Approach the front gate disguised", next: "scene3" }
@@ -39,7 +39,7 @@ choices: [
 
 scene2: {
 text: "You leap across rooftops toward the castle wall while a patrol walks below.",
-image: "images/rooftop.jpg",
+image: "rooftop.jpg",
 choices: [
 { text: "Wait quietly for them to leave", next: "scene4" },
 { text: "Move quickly before they notice", next: "scene5" }
@@ -48,7 +48,7 @@ choices: [
 
 scene3: {
 text: "Wearing a stolen guard cloak, you approach the gate. Two guards question you.",
-image: "images/gate.jpg",
+image: "gate.jpg",
 choices: [
 { text: "Bluff confidently", next: "scene6" },
 { text: "Slip away into the shadows", next: "scene4" }
@@ -57,7 +57,7 @@ choices: [
 
 scene4: {
 text: "You reach the outer wall of the castle.",
-image: "images/wall.jpg",
+image: "wall.jpg",
 choices: [
 { text: "Climb the ivy-covered wall", next: "scene7" },
 { text: "Search for a hidden entrance", next: "scene8" }
@@ -66,7 +66,7 @@ choices: [
  
 scene5: { 
 text: "Your footsteps echo and a guard shouts from below.",
-image: "images/rooftop.jpg",
+image: "rooftop.jpg",
 choices: [
 { text: "Run and jump to the wall", next: "scene7" },
 { text: "Throw a smoke bomb and hide", next: "scene8" }
@@ -75,7 +75,7 @@ choices: [
  
 scene6: {
 text: "The guards begin asking questions you cant answer.",
-image: "images/gate.jpg",
+image: "gate.jpg",
 choices: [
 { text: "Knock them out quietly", next: "scene7" },
 { text: "Flee toward the back garden", next: "scene9" }
@@ -84,7 +84,7 @@ choices: [
 
 scene7: {
 text: "You drop into the royal garden. A guard dog begins barking nearby.",
-image: "images/garden.jpg",
+image: "garden.jpg",
 choices: [
 { text: "Calm the dog with food", next: "scene10" },
 { text: "Run before it alerts the guards", next: "scene11" }
@@ -93,7 +93,7 @@ choices: [
 
 scene8: {
 text: "Behind some bushes you discover a sewer grate leading under the castle.",
-image: "images/sewer.jpg",
+image: "sewer.jpg",
 choices: [
 { text: "Crawl through the tunnel", next: "scene12" },
 { text: "Search for another entrance", next: "scene9" }
@@ -101,17 +101,17 @@ choices: [
 },
 
 scene9: {
-text: "You go into a twisting hedge maze behind the castle.",
-image: "images/maze.jpg",
+text: "You go into a hedge maze behind the castle.",
+image: "maze.jpg",
 choices: [
-{ text: "Climb a hedge to scout", next: "scene10" },
+{ text: "Climb a hedge", next: "scene10" },
 { text: "Follow the maze quietly", next: "scene11" }
 ]
 },
 
 scene10: {
 text: "You reach a servant's entrance along the side of the castle.",
-image: "images/kitchen.jpg",
+image: "kitchen.jpg",
 choices: [
 { text: "Sneak inside", next: "scene13" },
 { text: "Pretend to be a servant", next: "scene14" }
@@ -119,8 +119,8 @@ choices: [
 },
 
 scene11: {
-text: "Inside the corridor, a group of guards come at you.",
-image: "images/corridor.jpg",
+text: "Inside the corridor, a group of guards run at you.",
+image: "corridor.jpg",
 choices: [
 { text: "Hide and let them pass", next: "scene13" },
 { text: "Fight through them", next: "scene15" }
@@ -128,8 +128,8 @@ choices: [
 },
 
 scene12: {
-text: "You come from the sewer beneath the castle through a maintenance hatch.",
-image: "images/sewer.jpg",
+text: "You come from the sewer under the castle through a maintenance hatch.",
+image: "sewer.jpg",
 choices: [
 { text: "Climb into the lower halls", next: "scene13" },
 { text: "Explore basement tunnels", next: "scene16" }
@@ -138,7 +138,7 @@ choices: [
 
 scene13: {
 text: "Lavish castle corridors stretch ahead.",
-image: "images/corridor.jpg",
+image: "corridor.jpg",
 choices: [
 { text: "Head toward the throne room", next: "scene17" },
 { text: "Search for the treasury", next: "scene18" }
@@ -147,7 +147,7 @@ choices: [
 
 scene14: {
 text: "In the busy kitchen you blend among servants.",
-image: "images/kitchen.jpg",
+image: "kitchen.jpg",
 choices: [
 { text: "Gather information", next: "scene17" },
 { text: "Slip down a back corridor", next: "scene18" }
@@ -156,7 +156,7 @@ choices: [
 
 scene15: {
 text: "The fight alerts the castle guards. Alarms blare.",
-image: "images/corridor.jpg",
+image: "corridor.jpg",
 choices: [
 { text: "Escape through a window", next: "scene19" },
 { text: "Hide in a chamber", next: "scene20" }
@@ -165,7 +165,7 @@ choices: [
 
 scene16: {
 text: "You pass dungeon cells where prisoners whisper for help.",
-image: "images/dungeon.jpg",
+image: "dungeon.jpg",
 choices: [
 { text: "Free the prisoners", next: "scene21" },
 { text: "Ignore them and continue", next: "scene18" }
@@ -174,7 +174,7 @@ choices: [
 
 scene17: {
 text: "From a balcony you see the king meeting advisors below.",
-image: "images/throne.jpg",
+image: "throne.jpg",
 choices: [
 { text: "Eavesdrop", next: "scene22" },
 { text: "Slip toward the vault", next: "scene18" }
@@ -182,8 +182,8 @@ choices: [
 },
 
 scene18: {
-text: "A massive door guards the royal treasury.",
-image: "images/vault.jpg",
+text: "A massive door guards the royal treasure.",
+image: "vault.jpg",
 choices: [
 { text: "Pick the lock", next: "scene23" },
 { text: "Search for the key", next: "scene24" }
@@ -192,7 +192,7 @@ choices: [
 
 scene19: {
 text: "You escape onto the castle roof as alarms ring below.",
-image: "images/roof.jpg",
+image: "roof.jpg",
 choices: [
 { text: "Climb to the vault window", next: "scene23" },
 { text: "Escape early", next: "scene26" }
@@ -201,7 +201,7 @@ choices: [
 
 scene20: {
 text: "You hide inside the king's private study.",
-image: "images/study.jpg",
+image: "study.jpg",
 choices: [
 { text: "Take evidence of corruption", next: "scene22" },
 { text: "Head for the vault", next: "scene23" }
@@ -210,7 +210,7 @@ choices: [
 
 scene21: {
 text: "You free the prisoners. Chaos spreads through the castle.",
-image: "images/dungeon.jpg",
+image: "dungeon.jpg",
 choices: [
 { text: "Use the chaos to reach the vault", next: "scene23" },
 { text: "Help them escape", next: "scene26" }
@@ -219,7 +219,7 @@ choices: [
 
 scene22: {
 text: "You discover a secret passage leading to the vault.",
-image: "images/secret.jpg",
+image: "secret.jpg",
 choices: [
 { text: "Take the passage", next: "scene23" },
 { text: "Follow it to the throne room", next: "scene27" }
@@ -228,7 +228,7 @@ choices: [
 
 scene23: {
 text: "The Emerald Crown is before you.",
-image: "images/treasure.jpg",
+image: "treasure.jpg",
 choices: [
 { text: "Take the jewels and leave", next: "scene26" },
 { text: "Take everything and confront the king", next: "scene27" }
@@ -237,7 +237,7 @@ choices: [
 
 scene24: {
 text: "The guard captain carries the vault key.",
-image: "images/captain.jpg",
+image: "captain.jpg",
 choices: [
 { text: "Pickpocket the key", next: "scene23" },
 { text: "Challenge him", next: "scene25" }
@@ -245,8 +245,8 @@ choices: [
 },
 
 scene25: {
-text: "A tense duel with the captain begins.",
-image: "images/duel.jpg", 
+text: "A duel with the captain begins.",
+image: "duel.jpg", 
 choices: [
 { text: "Win the duel", next: "scene23" },
 { text: "Escape wounded", next: "scene26" }
@@ -255,7 +255,7 @@ choices: [
 
 scene26: {
 text: "You escape into the night with the jewels, planning to return them to the people.",
-image: "images/escape.jpg",
+image: "escape.jpg",
 choices: [
 { text: "Play Again", next: "scene1" }
 ]
@@ -263,7 +263,7 @@ choices: [
 
 scene27: {
 text: "You confront the corrupt king in the throne room.",
-image: "images/throne.jpg",
+image: "throne.jpg",
 choices: [
 { text: "Reveal the evidence", next: "scene28" },
 { text: "Attack the king", next: "scene29" }
@@ -272,7 +272,7 @@ choices: [
 
 scene28: {
 text: "The corruption is exposed and the kingdom begins to change.",
-image: "images/crown.jpg",
+image: "crown.jpg",
 choices: [
 { text: "Play Again", next: "scene1" }
 ]
@@ -280,7 +280,7 @@ choices: [
 
 scene29: {
 text: "The king falls, but chaos spreads through the kingdom.",
-image: "images/crown.jpg",
+image: "crown.jpg",
 choices: [
 { text: "Play Again", next: "scene1" }
 ]
@@ -288,7 +288,7 @@ choices: [
 
 scene30: {
 text: "Too many alarms sound. Guards surround you. The heist fails.",
-image: "images/capture.jpg",
+image: "capture.jpg",
 choices: [
 { text: "Try Again", next: "scene1" }
 ]
